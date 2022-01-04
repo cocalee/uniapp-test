@@ -1,0 +1,20 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"enablePullDownRefresh":true,//下拉刷新
+			"onReachBottomDistance":200,
+			"navigationBarTitleText": "商城首页"
+		}
+	}],
+	"globalStyle": {
+		"navigationStyle":"custom",//取消原生头部
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}
